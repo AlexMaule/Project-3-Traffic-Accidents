@@ -119,6 +119,7 @@ function barChanged(passenger_vehicle) {
 
 // --------------------------------------------------------------
 
+var time = document.getElementById("dayTime").value;
 url = 'http://traffic-accidents-flask.onrender.com/api/v1.0/time/All/' + time;
 // getData();
 window.onload =async function getData() {
